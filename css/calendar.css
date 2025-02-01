@@ -1,0 +1,32 @@
+/* Стил за заглавието */
+.calendar-section h1 {
+    text-align: center; /* Центриране */
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px; /* Разстояние отдолу */
+}
+
+/* Стил за избора на дете */
+.child-select {
+    display: flex;
+    justify-content: center; /* Центриране на dropdown-а */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.child-select label {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-right: 10px; /* Разстояние между label и select */
+}
+
+.child-select select {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid #5a3e1b;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}

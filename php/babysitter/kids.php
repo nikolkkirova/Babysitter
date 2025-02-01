@@ -24,7 +24,7 @@ if (isset($_POST['select_child'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Kids</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../../css/style.css">
@@ -53,7 +53,6 @@ if (isset($_POST['select_child'])) {
                                 <tr>
                                     <th>Name</th>
                                     <th>Age</th>
-                                    <th>Calendar</th>
                                 </tr>
                             </thead>
                             <?php
@@ -64,13 +63,6 @@ if (isset($_POST['select_child'])) {
                                         <td><?php echo $fetch_children['name']; ?></td>
                                         <td>
                                             <?php echo $fetch_children['age']; ?>
-                                        </td>
-                                        <td>
-                                            <form action="" method="post">
-                                                <input type="hidden" name="child_id"
-                                                    value="<?php echo $fetch_children['id']; ?>">
-                                                <input type="submit" name="select_child" value="open" class="option-btn">
-                                            </form>
                                         </td>
                                     </tr>
                                 </tbody>

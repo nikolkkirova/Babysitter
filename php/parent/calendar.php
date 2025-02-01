@@ -21,7 +21,7 @@ $children = getChildrenByParent($parentId);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Календар на децата</title>
+    <title>Parent Calendar</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/calendar.css">

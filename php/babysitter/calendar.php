@@ -25,7 +25,7 @@ $children = getChildrenByBabysitter($babysitter_id); // Функция за вз
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Календар на детегледача</title>
+    <title>Babysitter Calendar</title>
     <!-- Включваме CSS за календара -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../css/style.css">

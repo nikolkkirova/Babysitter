@@ -34,7 +34,7 @@ if (isset($_POST['update_personal_data'])) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>home</title>
+  <title>Personal Data</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="../../css/style.css">
@@ -52,7 +52,6 @@ if (isset($_POST['update_personal_data'])) {
         ?>
         <form action="" method="post" enctype="multipart/form-data">
           <input type="hidden" name="update_p_id" value="<?php echo $fetch_update['id']; ?>">
-          <img class="image" src="../../overview/photos/personal-data.jpg" alt="">
           <input type="text" name="update_fullname" value="<?php echo $fetch_update['fullname']; ?>" class="box" required>
           <input type="text" name="update_address" value="<?php echo $fetch_update['address']; ?>" class="box" required>
           <input type="text" name="update_phone" value="<?php echo $fetch_update['phone']; ?>" class="box" required>

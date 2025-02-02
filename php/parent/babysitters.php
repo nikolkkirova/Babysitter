@@ -44,10 +44,7 @@ if (isset($_POST['select_babysitter'])) {
 
         <div class="content">
             <div class="menu-element">
-                <h3>
-                    Suggested Babysitters
-                </h3>
-                <img class="image" src="../../assets/icons/babysitter.jpg" alt="">
+                <h3>Suggested Babysitters</h3>
 
                 <div class="suggested_babysitters">
 

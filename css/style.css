@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
-* {
+/* всички елементи */
+* { /* универсален селектор! */
    font-family: 'Century Gothic', monospace;
    margin: 0;
    padding: 0;
@@ -9,18 +10,19 @@
    border: none;
    text-decoration: none;
 }
-
+/* цялата уеб страница*/
 html {
    background: radial-gradient(circle,  rgb(238 209 174) 0%, rgb(114 91 44) 100%);
    font-size: 62.5%;
-   overflow-x: hidden;
 }
 
-section {
+/* табличките за детегледачките и за децата*/
+section { 
    padding: 3rem 2rem;
 }
 
-.message {
+/* съобщението, което излиза отгоре: например Babysitter successfully selected! */
+.message { 
    position: sticky;
    top: 0;
    margin: auto auto;
@@ -34,41 +36,36 @@ section {
 }
 
 .message span {
-   color: var(--black);
-   font-size: 2.3rem;
-}
-
-.message i {
-   cursor: pointer;
-   color: var(--red);
+   color: black;
    font-size: 2.5rem;
 }
 
-.message i:hover {
-   transform: rotate(90deg);
+/* кръстчето х като бутонче след съобщението*/
+.message i {
+   cursor: pointer;
+   font-size: 2.5rem;
 }
 
-.btn,
+/* бутони Update, Select, Logout*/
+.btn, 
 .option-btn,
-.delete-btn,
-.white-btn {
+.logout-btn
+{
    display: inline-block;
-   margin: 1.5rem;
-   padding: 1rem 3rem;
+   margin: 1.4rem;
+   padding: 1rem 2rem;
    cursor: pointer;
    color: white;
    font-size: 1.8rem;
    border-radius: 50%;
-   text-transform: capitalize;
 }
 
 .btn:hover,
 .option-btn:hover,
-.delete-btn:hover {
-   background-color: var(--black);
+.logout-btn:hover {
+   background-color: black;
 }
 
-.white-btn,
 .btn {
    background-color: #c3b091;
 }
@@ -77,16 +74,11 @@ section {
    background-color: #856d4d;
 }
 
-.delete-btn {
+.logout-btn {
    background-color: #856d4d;
 }
 
-.white-btn:hover {
-   background-color: var(--purple);
-   color: var(--black);
-}
-
-.heading {
+/* .heading {
    min-height: 30vh;
    display: flex;
    flex-flow: column;
@@ -97,9 +89,9 @@ section {
    background-size: cover;
    background-position: center;
    text-align: center;
-}
+} */
 
-.heading h3 {
+/* .heading h3 {
    font-size: 5rem;
    color: var(--black);
    text-transform: uppercase;
@@ -116,14 +108,11 @@ section {
 
 .heading p a:hover {
    text-decoration: underline;
-}
+} */
 
-
+/* Log in форма*/
 .form-container {
    min-height: 100vh;
-   background-color: var(--light-bg);
-   background-color: #ffd5af;
-   background: rgb(238, 174, 202);
    background: radial-gradient(circle, rgb(238 209 174) 0%, rgb(114 91 44) 100%);
    display: flex;
    align-items: center;
@@ -140,9 +129,10 @@ section {
    box-shadow: var(--box-shadow);
 }
 
+/* надпис Let's Get Started*/
 .form-container form h3 {
    font-size: 3rem;
-   color: var(--black);
+   color: black;
    margin-bottom: 1rem;
    text-transform: uppercase;
 }
@@ -152,7 +142,7 @@ section {
    background-color:#c3b091;
    padding: 1.4rem 1.4rem;
    font-size: 1.8rem;
-   color: var(--black);
+   /* color: var(--black); */
    border: var(--border);
    margin: 1rem 0;
 }

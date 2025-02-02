@@ -50,8 +50,7 @@ if (isset($_POST['add_child'])) {
     <section class="add-kid-form">
         <!-- Форма за добавяне на дете -->
         <form action="" method="post" enctype="multipart/form-data">
-            <img class="image" src="../../assets/icons/add-child.jpg" alt="">
-            <p>Enter your kid's Name and Age</p>
+            <p>Enter your kid's name and age</p>
             <!-- Поле за въвеждане на име на детето -->
             <input type="text" name="name" value="" class="box" required>
             <!-- Поле за въвеждане на възрастта на детето -->
@@ -60,7 +59,6 @@ if (isset($_POST['add_child'])) {
             <input type="submit" value="Add" name="add_child" class="btn">
         </form>
     </section>
-    <!-- <?php include 'footer.php'; ?> -->
      <!-- Включване на JavaScript файла за функционалности -->
     <script src="../../js/script.js"></script>
 </body>

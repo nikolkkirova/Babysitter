@@ -68,6 +68,7 @@ if (isset($_POST['submit'])) {
    }
    ?>
 
+   <!-- Форма за вход-->
    <div class="form-container">
 
       <form action="" method="post">

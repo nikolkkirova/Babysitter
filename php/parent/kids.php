@@ -38,9 +38,7 @@ if (isset($_POST['select_child'])) {
 
         <div class="content">
             <div class="menu-element your-children-container">
-                <h3>
-                    Your registered kid
-                </h3>
+                <h3>Your registered kid</h3>
                 <div class="registered-children">
                     <?php
                     // Изпълняваме заявка за извличане на децата на текущия родител
@@ -55,7 +53,6 @@ if (isset($_POST['select_child'])) {
                                     <th>Name</th>
                                     <th>Age</th>
                                     <th>Babysitter</th>
-                                    <th>Calendar</th>
                                 </tr>
                             </thead>
                             <?php
@@ -82,12 +79,6 @@ if (isset($_POST['select_child'])) {
                                                 echo "Babysitter not selected yet"; // Показваме съобщение, ако няма избран детегледач
                                             }
                                             ?>
-                                        </td>
-                                        <td>
-                                            <form action="" method="post">
-                                                <input type="hidden" name="child_id" value="<?php echo $fetch_child['id']; ?>">
-                                                <input type="submit" name="select_child" value="open" class="option-btn">
-                                            </form>
                                         </td>
                                     </tr>
                                 </tbody>

@@ -40,7 +40,7 @@ if (isset($message)) { // Проверяваме дали има съобщен�
                   <?php echo $_SESSION['parent_name']; ?> <!-- Показваме потребителското име -->
                </span></p>
             <p>email : <span><?php echo $_SESSION['parent_email']; ?></span></p> <!-- Показваме имейла на потребителя -->
-            <a href="../common/logout.php" class="delete-btn">logout</a> <!-- Бутон за изход от профила -->
+            <a href="../common/logout.php" class="logout-btn">logout</a> <!-- Бутон за изход от профила -->
          </div>
       </div>
    </div>

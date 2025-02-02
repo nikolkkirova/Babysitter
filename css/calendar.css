@@ -1,6 +1,6 @@
 /* Стил за заглавието */
 .calendar-section h1 {
-    text-align: center; /* Центриране */
+    text-align: center; 
     font-size: 26px;
     font-weight: bold;
     color: black;

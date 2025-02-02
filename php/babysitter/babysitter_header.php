@@ -28,9 +28,8 @@ if (isset($message)) {
                 <a href="kids.php">kids</a>
                 <a href="profile.php">personal data</a>
             </nav>
-            <!-- Икони за мобилно меню и профил на потребителя -->
+
             <div class="icons">
-                <div id="menu-btn" class="fas fa-bars"></div> <!-- Бутон за мобилно меню -->
                 <div id="user-btn" class="fa-solid fa-circle-user"></div> <!-- Бутон за отваряне на потребителското меню -->
             </div>
 
@@ -40,7 +39,7 @@ if (isset($message)) {
                     <?php echo $_SESSION['babysitter_name']; ?> <!-- Показване на потребителското име -->
                 </span></p>
                 <p>email: <span> <?php echo $_SESSION['babysitter_email']; ?> </span></p> <!-- Показване на имейла -->
-                <a href="../common/logout.php" class="delete-btn">logout</a> <!-- Бутон за изход от профила -->
+                <a href="../common/logout.php" class="logout-btn">logout</a> <!-- Бутон за изход от профила -->
             </div>
         </div>
     </div>

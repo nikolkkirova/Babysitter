@@ -35,7 +35,6 @@ if (isset($_POST['select_parent'])) { // Проверява дали е нати
     <div class="content">
         <div class="menu-element">
             <h3>Connected Parents</h3>
-            <img class="image" src="../../overview/photos/babysitter.jpg" alt="">
 
             <div class="suggested_babysitters">
                 <table class="data-table"> <!-- Таблица за показване на информация за родителите -->

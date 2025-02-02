@@ -43,13 +43,8 @@ if (isset($_POST['select_child'])) {
 
         <div class="content">
             <div class="menu-element">
-                <h3>
                     <!-- Заглавие, което показва, че това са децата, за които се грижи детегледачът -->
-                    Kids you take care of
-                </h3>
-                <!-- Изображение за оформление -->
-                <img class="image" src="../../overview/photos/child-care.jpg" alt="">
-
+                    <h3>Kids you take care of</h3>
                 <div class="suggested_babysitters">
 
                     <?php

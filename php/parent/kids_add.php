@@ -50,7 +50,7 @@ if (isset($_POST['add_child'])) {
     <section class="add-kid-form">
         <!-- Форма за добавяне на дете -->
         <form action="" method="post" enctype="multipart/form-data">
-            <p>Enter your kid's name and age</p>
+            <p id="enter_kid">Enter your kid's name and age</p>
             <!-- Поле за въвеждане на име на детето -->
             <input type="text" name="name" value="" class="box" required>
             <!-- Поле за въвеждане на възрастта на детето -->

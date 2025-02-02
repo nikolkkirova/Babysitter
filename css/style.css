@@ -129,7 +129,7 @@ section {
    box-shadow: var(--box-shadow);
 }
 
-/* надпис Let's Get Started*/
+/* надпис Let's Get Started и формата за вход и за регистрация*/
 .form-container form h3 {
    font-size: 3rem;
    color: black;
@@ -142,15 +142,12 @@ section {
    background-color:#c3b091;
    padding: 1.4rem 1.4rem;
    font-size: 1.8rem;
-   /* color: var(--black); */
-   border: var(--border);
    margin: 1rem 0;
 }
 
 .form-container form p {
    padding-top: 1.5rem;
    font-size: 2rem;
-   color: var(--black);
 }
 
 .form-container form p a {
@@ -161,10 +158,9 @@ section {
    text-decoration: underline;
 }
 
-
+/* Хедърите и логото */
 .header .header-2 {
    background-color:rgb(114 91 44);
-   box-shadow: var(--box-shadow);
 }
 
 .header .header-2.active {
@@ -202,8 +198,7 @@ section {
 }
 
 .header .header-2 .flex .icons>* {
-   font-size: 2.5rem;
-   color: var(--black);
+   font-size: 3rem;
    cursor: pointer;
    margin-left: 1.5rem;
 }
@@ -212,23 +207,15 @@ section {
    color: #c3b091;
 }
 
-#menu-btn {
-   display: none;
-}
-
 .header .header-2 .flex .user-box {
    position: absolute;
    top: 120%;
    right: 2rem;
-   background-color: var(--purple);
    border-radius: .5rem;
-   box-shadow: var(--box-shadow);
-   border: var(--border);
    padding: 2rem;
    text-align: center;
    width: 30rem;
    display: none;
-   animation: fadeIn .2s linear;
 }
 
 .header .header-2 .flex .user-box.active {
@@ -248,18 +235,11 @@ section {
    color: white;
 }
 
-.header .header-2 .flex .user-box .delete-btn {
-   margin-top: 0;
-   color: white;
-}
-
+/* страници main, babysitters, kids*/
 .home,
 .children,
 .babysitters {
    position: relative;
-   min-height: 70vh;
-   background-size: cover;
-   background-position: center;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -271,22 +251,14 @@ section {
    gap: 2rem; 
    justify-content: center;
    align-items: center; 
-   padding: 2rem;
+   padding: 1rem;
 }
 
 .home .content h3 {
    margin: 0.3rem;
    font-size: 2.5rem;
-   color: var(--black);
-   text-transform: uppercase;
+   color: black;
    text-align: center;
-}
-
-.home .content p {
-   font-size: 1.8rem;
-   color: var(--dark-purple);
-   padding: 1rem 0;
-   line-height: 1.5;
 }
 
 .home .content .menu-element {
@@ -294,7 +266,7 @@ section {
    width: 50rem;
    border: white;
    border-style: solid;
-   border-radius: 30%;
+   border-radius: 40%;
    background-color: white;
    z-index: 0;
 }
@@ -313,23 +285,14 @@ section {
 .babysitters .content h3 {
    margin: 0.3rem;
    font-size: 2.5rem;
-   color: var(--black);
-   text-transform: uppercase;
-}
-
-.children .content p,
-.babysitters .content p {
-   font-size: 1.8rem;
-   color: var(--dark-purple);
-   padding: 1rem 0;
-   line-height: 1.5;
+   color: black;
 }
 
 .children .content .your-children-container {
    width: 120rem;
    border: #ffffff;
    border-style: solid;
-   border-radius: 5rem;
+   border-radius: 4rem;
    background-color: white;
    z-index: 0;
 }
@@ -340,7 +303,7 @@ section {
    width: 50rem;
    border: #ffffff;
    border-style: solid;
-   border-radius: 5rem;
+   border-radius: 6rem;
    background-color: white;
    z-index: 0;
 }
@@ -364,7 +327,7 @@ section {
 
 .babysitters .content .menu-element {
    position: relative;
-   width: 120rem;
+   width: 110rem;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -375,7 +338,7 @@ section {
    background-color: white;
    z-index: 0;
 }
-
+/* Снимките на началната страница */
 .menu-element img {
    width: 100%;
    height: auto; 
@@ -385,6 +348,7 @@ section {
    margin: 0 auto; 
 }
 
+/* таблиците в страници babysitters и kids*/
 table.data-table {
    min-width: 800px;
    font-size: 2rem;
@@ -455,14 +419,13 @@ tr.suggested-babysitter-selec td {
    background-color: #deb887;
    padding: 4rem;
    border-radius: .5rem;
-   box-shadow: var(--box-shadow);
 }
 
 .edit-profile-form form h3,
 .add-kid-form form h3,
 .log_activity_form form h3 {
    font-size: 3.5rem;
-   color: var(--black);
+   color: black;
    margin-bottom: 1rem;
    text-align: center;
 }
@@ -476,7 +439,7 @@ tr.suggested-babysitter-selec td {
    font-size: 1.8rem;
    border-radius: .5rem;
    background-color: #c3b091;
-   color: var(--black);
+   color: black;
 }
 
 .edit-profile-form form .box:focus,
@@ -488,35 +451,22 @@ tr.suggested-babysitter-selec td {
 .edit-profile-form form button,
 .add-kid-form form button,
 .log_activity_form form button {
-   background-color: var(--purple);
    color: white;
    font-size: 1.8rem;
    padding: 1rem 3rem;
    cursor: pointer;
    border-radius: 50%;
-   text-transform: capitalize;
    margin-top: 2rem;
 }
 
 .edit-profile-form form button:hover,
 .add-kid-form form button:hover,
 .log_activity_form form button:hover {
-   background-color: var(--black);
+   background-color: black;
 }
 
-.close-btn {
-   position: absolute;
-   top: 1rem;
-   right: 1rem;
-   background-color: var(--red);
-   color: white;
-   font-size: 2.5rem;
-   padding: 1rem;
-   cursor: pointer;
-   border-radius: 50%;
+/* Текст Enter your kid's name and age при формата за регистриране на ново дете */
+#enter_kid {
+   font-size: 24px;
+   text-align: center;
 }
-
-.close-btn:hover {
-   background-color: var(--black);
-}
-

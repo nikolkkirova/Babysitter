@@ -28,9 +28,7 @@ if (isset($message)) { // Проверяваме дали има съобщен�
             <a href="profile.php">personal data</a>
          </nav>
 
-         <!-- Икони за мобилно меню и потребител -->
          <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
             <div id="user-btn" class="fa-solid fa-circle-user"></div>
          </div>
 

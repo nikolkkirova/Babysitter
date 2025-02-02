@@ -49,8 +49,6 @@ if (isset($_POST['select_child'])) {
                     <!-- Показваме името на родителя и неговите деца -->
                     <?php echo $selected_parent_name ?>'s Children
                 </h3>
-                <!-- Изображение за оформление -->
-                <img class="image" src="../../overview/photos/child-care.jpg" alt="">
 
                 <div class="suggested_babysitters">
 
